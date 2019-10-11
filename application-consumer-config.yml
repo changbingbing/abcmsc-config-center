@@ -19,6 +19,13 @@ feign:
   hystrix:
     enabled: true
 
+# 开启actuator的所有web终端
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 ---
 # 配置test环境
 server:
