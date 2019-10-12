@@ -1,4 +1,4 @@
-suffix: consumer
+suffix: consumer-ccb
 
 # 配置dev环境
 server:
